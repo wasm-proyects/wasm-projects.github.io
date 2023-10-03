@@ -39,7 +39,7 @@ matrix:
         provider: pages
         skip-cleanup: true
         local-dir: docs
-        keep-history: true 
+        keep-history: false 
 
     - name: Tests
       env: RUST_BACKTRACE=1
