@@ -40,7 +40,7 @@ matrix:
         skip-cleanup: true
         github-token: $GITHUB_TOKEN
         local-dir: docs
-        keep-history: false 
+        keep-history: true 
 
     - name: Tests
       env: RUST_BACKTRACE=1
